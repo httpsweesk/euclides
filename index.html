@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Machado de Assis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="menu-list">
+            <li><a href="https://httpsweesk.github.io/machadodeassis/" target="_blank">Machado de Assis</a></li>
+            <li><a href="https://httpsweesk.github.io/lygia/" target="_blank">Lygia Fagundes Telles</a></li>
+            <li><a href="https://httpsweesk.github.io/euclides/" target="_blank">Euclides da Cunha</a></li>
+            <li><a href="https://httpsweesk.github.io/lima/" target="_blank">Lima Barreto</a></li>
+            <li><a href="https://httpsweesk.github.io/agusto/" target="_blank">Augusto dos Anjos</a></li>
+            <li><a href="https://httpsweesk.github.io/oswald/" target="_blank">Oswald de Andrade</a></li>
+        </ul>
+    </div>
+    
+    <header>
+        <div class="container">
+            <h1>Euclides da Cunha</h1>
+            <img src="euclide.png" alt="Machado de Assis" class="profile-pic">
+            <nav>
+                <ul>
+                    <li><a href="#bio">Biografia</a></li>
+                    <li><a href="#obras">Obras</a></li>
+                    <li><a href="#curiosidades">Curiosidades</a></li>
+                    <li><a href="#timeline">Linha do Tempo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- BIOGRAFIA -->
+    <section id="bio" class="section">
+        <h2>Biografia</h2>
+        <div class="bio-box">
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Euclides Rodrigues Pimenta da Cunha</li>
+                        <li>Nascimento: 20 de janeiro de 1866, Cantagalo, Rio de Janeiro, Brasil</li>
+                        <li>Falecimento: 15 de agosto de 1909, Rio de Janeiro, Brasil</li>
+                        <li>Escritor, engenheiro, jornalista, professor e militar</li>
+                        <li>Movimento literário: Pré-modernismo
+                        </li>
+                        <li>Principal característica: Estilo científico e descritivo, análise crítica da sociedade brasileira e forte influência do determinismo
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="bio-images">
+                <a href="https://pt.wikipedia.org/wiki/Euclides_da_Cunha" target="_blank">
+                    <img src="joivem.png" alt="Machado jovem" id="machado-jovem">
+                </a>
+                <a href="https://www.academia.org.br/academicos/euclides-da-cunha" target="_blank">
+                    <img src="abl.jpg " alt="Machado na ABL" id="abl">
+                </a>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- GALERIA DE OBRAS -->
+    <section id="obras" class="section">
+        <h2>Romances</h2>
+        <div class="gallery">
+            <div class="card" data-link="https://www.amazon.com.br/Os-Sert%C3%B5es-Euclides-Cunha/dp/8544001297">
+                <img src="sertao.jpg" alt="Capa Memórias Póstumas de Brás Cubas" class="book-cover">
+                <p>Os Sertões</p>
+            </div>
+            <div class="card" data-link="https://www.amazon.com.br/Peru-Versus-Bolivia-Euclides-Cunha/dp/1512352578">
+                <img src="peru.jpg" alt="Capa Dom Casmurro" class="book-cover">
+                <p>Peru Versus Bolívia</p>
+            </div>
+            <div class="card" data-link="https://www.amazon.com.br/Quincas-Borba-Machado-Assis/dp/6559100553">
+                <img src="margem.jpg" alt="Quincas Borba" class="book-cover">
+                <p> À Margem da História</p>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+    <section id="curiosidades" class="section">
+        <h2>Curiosidades</h2>
+        <div class="curiosidades-box">
+            <ul>
+                <li>Fundador da Academia Brasileira de Letras.</li>
+                <li>Era gago e epilético, o que influenciou sua introspecção.</li>
+                <li>Casado com Carolina Augusta Xavier de Novais, seu grande amor.</li>
+            </ul>
+        </div>
+    </section>
+
+    
+    
+    <!-- LINHA DO TEMPO -->
+    <section id="timeline" class="section">
+        <h2>Linha do Tempo</h2>
+        <div class="timeline">
+            <div class="line"></div>
+            <div class="event show" data-year="1839">Infância marcada por perdas</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Órfão de mãe aos três anos, foi criado por tios e teve uma infância instável.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event" data-year="1855">Expulsão da Escola Militar</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Foi expulso da Escola Militar em 1888 após um ato de insubordinação contra a monarquia.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event" data-year="1897">Jornalista e correspondente de guerra</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Cobriu a Guerra de Canudos para o jornal O Estado de S. Paulo, experiência que resultou no livro Os Sertões.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event" data-year="1908">Autor de um clássico da literatura brasileira</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Os Sertões (1902) se tornou referência na literatura, combinando ciência, história e crítica social.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event" data-year="1908">Crítica ao exército</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Em Os Sertões, condenou a brutalidade das forças militares contra os sertanejos de Canudos, o que gerou polêmica.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event" data-year="1908">Influência do determinismo</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Defendia a ideia de que o meio ambiente e a raça moldavam a personalidade dos indivíduos, uma teoria comum na época.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event show" data-year="1839">Missão na Amazônia</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Foi enviado para demarcar as fronteiras entre Brasil, Peru e Colômbia, experiência retratada em Peru Versus Bolívia.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event show" data-year="1839">Morte trágica</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Foi assassinado em 1909 ao tentar confrontar Dilermando de Assis, amante de sua esposa.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        
+        </div>
+        </div>
+    </section>
+
+</body>
+</html>
